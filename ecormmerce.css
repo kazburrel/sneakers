@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
 input::-webkit-outer-spin-button,
 ::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -16,12 +16,15 @@ input::-webkit-outer-spin-button,
   box-sizing: border-box;
 }
 body {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 400, 700;
   margin: 0;
   background: #fff;
   min-height: 100vh;
   position: relative;
+}
+.navStyle {
+  display: flex !important;
 }
 .phoneZero {
   display: flex !important;
@@ -270,6 +273,14 @@ ul li img {
   }
   .closeNav {
     display: block !important;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .fontSize {
+    font-size: 15px;
+  }
+  .dropW {
+    width: 260px;
   }
 }
 .cartInput {
