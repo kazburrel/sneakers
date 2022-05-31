@@ -1,0 +1,284 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+input::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#input {
+  outline: none;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 400, 700;
+  margin: 0;
+  background: #fff;
+  min-height: 100vh;
+  position: relative;
+}
+.phoneZero {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.hov:hover {
+  border-bottom: 3px solid hsl(26, 100%, 55%);
+}
+.backdrop {
+  position: absolute;
+  height: 100vh;
+  width: 50%;
+  display: none;
+}
+img {
+  max-width: 100%;
+}
+#mainImg {
+  height: 400px;
+  cursor: pointer;
+}
+.mainIMG {
+  position: absolute;
+}
+.container {
+  padding: 40px 0;
+}
+figure {
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+figure img {
+  max-width: 100%;
+  min-width: 100%;
+  display: block;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+ul li {
+  margin: 0 5px;
+  display: inline-block;
+  width: 100px;
+
+  cursor: pointer;
+}
+.modalThumb {
+  margin: 0 5px;
+  display: inline-block;
+  width: 90px;
+
+  cursor: pointer;
+}
+ul li img {
+  display: block;
+}
+.fineBorder {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 7px;
+
+  filter: opacity(40%);
+}
+.curve:hover {
+  filter: opacity(40%);
+}
+.curve {
+  border-radius: 7px;
+}
+.fontC {
+  color: hsl(26, 100%, 55%);
+}
+.fontC1 {
+  color: hsl(240, 3%, 77%);
+  text-decoration: line-through;
+}
+.font1 {
+  font-size: 13px;
+}
+.bgC {
+  background-color: hsl(223, 64%, 98%);
+}
+.bgC2 {
+  background-color: hsl(26, 100%, 55%);
+}
+.bgC3 {
+  background-color: hsl(25, 100%, 94%);
+}
+.imgSize {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.imgSize:hover {
+  border: 3px solid hsl(26, 100%, 55%);
+}
+.dWidth {
+  width: 130px;
+}
+.dropW {
+  width: 300px;
+  box-shadow: 4px 3px 5px #888888;
+}
+.roun {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100px;
+  right: -0.3rem;
+  top: -0.5rem;
+}
+.sliderDiv {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.moveArrow1 {
+  position: absolute;
+  top: 360px;
+  left: 858px;
+  z-index: 5;
+}
+.moveArrow2 {
+  position: absolute;
+  top: 360px;
+  left: 372px;
+  z-index: 5;
+}
+.slideL {
+  cursor: pointer;
+}
+.slideR {
+  cursor: pointer;
+}
+.addChov:hover {
+  filter: opacity(60%);
+}
+.trans:hover {
+  transform: scale(0.98, 0.98);
+}
+.modalClass {
+  width: 100%;
+  height: 100vh;
+}
+.modalH {
+  height: 400px;
+}
+
+.mdl {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.gallery-box {
+  width: 38%;
+  height: 27rem;
+  margin-top: 10rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-list {
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.img {
+  max-width: 100%;
+  height: 40rem;
+  position: absolute;
+  height: auto;
+  transition: all 1s;
+}
+.thumbPic {
+  width: 100px;
+}
+.closeBtn {
+  position: absolute;
+  top: 115px;
+  right: 380px;
+}
+.hovF:hover {
+  color: hsl(26, 100%, 55%);
+}
+
+.hide {
+  display: none !important;
+}
+.show {
+  display: block;
+}
+
+@media only screen and (max-width: 425px) {
+  .discount {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mediaStyle {
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 10px;
+  }
+  .cartInput {
+    margin-bottom: 20px;
+    padding: 13px;
+  }
+  .btn {
+    width: 100%;
+    padding: 0;
+  }
+  .addChov {
+    width: 100%;
+  }
+
+  .ulStyle {
+    position: absolute;
+    z-index: 5;
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .arrange1 {
+    background-color: white;
+
+    padding: 70px 10px;
+    height: 100vh;
+    width: 70%;
+    text-align: left;
+  }
+
+  body {
+    position: relative;
+  }
+  .closeNav {
+    display: block !important;
+  }
+}
+.cartInput {
+  width: 220px;
+}
+.addTC {
+  border: none;
+}
+.showNav {
+  outline: none;
+  border: none;
+}

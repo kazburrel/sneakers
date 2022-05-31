@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ecormmerce</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="ecormmerce.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
+    </style> -->
+  </head>
+  <body>
+    <div class="container pt-0">
+      <nav class="navbar navbar-expand-lg border-bottom mb-4">
+        <div class="container p-0">
+         <div>
+          <button
+          class="navbar-toggler showNav"
+          type="button"
+
+        >
+          <span class="lh-1 px-2"><i class="fa fa-bars fs-5"></i></span>
+        </button>
+         </div>
+          <a
+            class="navbar-brand fs-3 text-decoration-none text-dark p-4 fw-bolder"
+            href="#"
+            >SNEAKERS</a
+          >
+          <div class="collapse navbar-collapse ulStyle">
+            <ul class="navbar-nav arrange1 fw-bold">
+              <li class="closeNav d-flex justify-content-left mb-3 mt-0 d-none d-lg-none d-xl-none d-xxl-none"><p>X</p></li>
+              <li class="nav-item rounded-lg hov mt-sm-1 rounded">
+                <a href="#" class="nav-link py-1">Collections</a>
+              </li>
+              <li class="nav-item rounded-lg hov mt-sm-1 rounded">
+                <a href="#" class="nav-link py-1">Men</a>
+              </li>
+              <li class="nav-item rounded-lg hov mt-sm-1 rounded">
+                <a href="#" class="nav-link py-1">Women</a>
+              </li>
+              <li class="nav-item rounded-lg hov mt-sm-1 rounded">
+                <a href="#" class="nav-link py-1">About</a>
+              </li>
+              <li class="nav-item rounded-lg hov mt-sm-1 rounded">
+                <a href="#" class="nav-link py-1">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          
+            <div class="dWidth  phoneZero">
+              <span
+                ><div class="dropdown">
+                  <button
+                    class="bg-transparent border-0 position-relative"
+                    data-bs-toggle="dropdown"
+                  >
+                    <div class="text-light bgC2 roun position-absolute hide cartNum">
+                      1
+                    </div>
+                    <i
+                      class="fs-3 fa fa-cart-shopping"
+                      id="dropdownMenuButton1"
+                      aria-expanded="false"
+                    ></i>
+                  </button>
+  
+                  <div
+                    class="dropdown-menu dropdown-menu-end mt-4 dropW"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <p class="border-bottom p-2">Cart</p>
+                    <div class="cartCon"></div>
+                    <div class="p-5 text-center emptyCart">
+                      <p>Your cart is empty</p>
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <div class="imgSize">
+                <img
+                  class=""
+                  src="../sneakers/images/image-avatar.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          
+          
+        </div>
+      </nav>
+
+      <!-- Laptop View -->
+      <div class="row">
+        <div class="col-12 d-none showMd">
+          
+        </div>
+        
+        <div class=" col-lg-6 col-md-12 pt-3">
+          
+          <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block ">
+            <figure class="trans">
+              <!-- <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" -->
+                <img
+                  class="img-fluid rounded-3 Mact"
+                  id="mainImg"
+                  src="images/image-product-1.jpg"
+              /></a>
+            </figure>
+  
+            <ul>
+              <li>
+                <img
+                  class="fineBorder fineBg curve"
+                  id="thumb1"
+                  src="images/image-product-1-thumbnail.jpg"
+                />
+              </li>
+              <li>
+                <img
+                  class="curve"
+                  id="thumb2"
+                  src="images/image-product-2-thumbnail.jpg"
+                />
+              </li>
+              <li>
+                <img
+                  class="curve"
+                  id="thumb3"
+                  src="images/image-product-3-thumbnail.jpg"
+                />
+              </li>
+              <li>
+                <img
+                  class="curve"
+                  id="thumb4"
+                  src="images/image-product-4-thumbnail.jpg"
+                />
+              </li>
+            </ul>
+          </div>
+
+          <div class="carou d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/image-product-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/image-product-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/image-product-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/image-product-4.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev sliderDiv1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next sliderDiv1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class=" col-lg-6 col-md-12 p-5 cartCol">
+          <p class="fontC fw-bold">SNEAKER COMPANY</p>
+          <h1 class="fw-bold mb-5 pName">Fall Limited Edition Sneakers</h1>
+          <p class="fw-lighter mb-4">
+            These low-profile sneakers are our perfect casual wear companion.
+            Featuring a durable rubber outer sole, they'll withstand everything
+            the weather can offer.
+          </p>
+          <div class="mb-5 discount">
+            <span class="fs-3 fw-bold me-3"> $125.00 </span>
+            <span class="fontC p-2 bgC3 rounded-3"> 50% </span> <br />
+            <span class="fontC1 price"> $250.00 </span>
+          </div>
+          
+           <div class="mediaStyle d-flex justify-content-between">
+              <div class="d-flex justify-content-evenly bgC rounded-4 cartInput w-100 me-2">
+                <button class="minus border-0 bg-transparent fw-bold fs-5 fontC">
+                  -
+                </button>
+                <input
+                  class="border-0 w-50 text-center bgC"
+                  type="number"
+                  name=""
+                  id="input"
+                  value="1"
+                />
+                <button class="plus border-0 bg-transparent fw-bold fs-5 fontC">
+                  +
+                </button>
+              </div>
+              
+              <div class="btn w-100 p-0 m-0">
+                <button class="d-flex justify-content-center addTC bgC2 px-5 py-3 rounded-4 addChov w-100">
+                  <i class="text-light fa fa-cart-shopping mt-1"></i>
+                  <span class="text-light ms-2">Add to Cart</span>
+                </button>
+              </div>
+           </div>
+        </div>
+      </div>
+
+      <!-- MODAL  -->
+      <!-- MODAL  -->
+      <!-- MODAL  -->
+      <!-- MODAL  -->
+      <!-- MODAL  -->
+      <!-- MODAL  -->
+
+      <div class="container modalMain hide d-flex justify-content-center">
+        <div class="mdl">
+          <div class="sliderDiv text-center moveArrow1 slideR">
+            <a class="text-decoration-none text-dark fw-bold fs-4"
+              ><i class="fa fa-chevron-right hovF"></i
+            ></a>
+          </div>
+          <div class="sliderDiv mt-1 text-center moveArrow2 slideL">
+            <a class="text-decoration-none text-dark fw-bold fs-4"
+              ><i class="fa fa-chevron-left hovF"></i
+            ></a>
+          </div>
+          <div class="closeBtn">
+            <button class="border-0 bg-transparent fs-4 hovF">X</button>
+          </div>
+          <div class="gallery-box mb-0">
+            <div class="image-list">
+              <div class="img-fluid img">
+                <img src="images/image-product-1.jpg" />
+              </div>
+              <div class="img">
+                <img src="images/image-product-2.jpg" />
+              </div>
+              <div class="img">
+                <img src="images/image-product-3.jpg" />
+              </div>
+              <div class="img">
+                <img src="images/image-product-4.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="d-flex thumbClick mt-5">
+            <div class="thumbPic me-2" data-slide="0">
+              <img class="curve" src="images/image-product-1-thumbnail.jpg" />
+            </div>
+            <div class="thumbPic me-2" data-slide="1">
+              <img class="curve" src="images/image-product-2-thumbnail.jpg" />
+            </div>
+            <div class="thumbPic me-2" data-slide="2">
+              <img class="curve" src="images/image-product-3-thumbnail.jpg" />
+            </div>
+            <div class="thumbPic" data-slide="3">
+              <img class="curve" src="images/image-product-4-thumbnail.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./ecommerce.js"></script>
+  </body>
+</html>
