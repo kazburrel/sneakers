@@ -166,6 +166,8 @@ ul li img {
 }
 .addChov:hover {
   filter: opacity(60%);
+  outline: none !important;
+  border: none !important;
 }
 .trans:hover {
   transform: scale(0.98, 0.98);
@@ -230,6 +232,9 @@ ul li img {
 }
 
 @media only screen and (max-width: 425px) {
+  .addChov:hover {
+    filter: opacity(100%);
+  }
   .discount {
     display: flex;
     justify-content: space-between;
@@ -281,6 +286,9 @@ ul li img {
   }
   .dropW {
     width: 260px;
+  }
+  .addChov:hover {
+    filter: opacity(100%);
   }
 }
 .cartInput {
