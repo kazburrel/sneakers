@@ -291,6 +291,27 @@ ul li img {
     filter: opacity(100%);
   }
 }
+@media only screen and (max-width: 850px) {
+  .ulStyle {
+    position: absolute;
+    z-index: 5;
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .arrange1 {
+    background-color: white;
+
+    padding: 70px 10px;
+    height: 100vh;
+    width: 70%;
+    text-align: left;
+  }
+  .closeNav {
+    display: block !important;
+  }
+}
 .cartInput {
   width: 220px;
 }
